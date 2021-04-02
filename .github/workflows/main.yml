@@ -21,7 +21,7 @@ jobs:
           COOKIE_STRING: ${{secrets.COOKIE_STRING}}
 
       - name: 'Send mail'
-        uses: dawidd6/action-send-mail@master
+        uses: davidelectricfree/action-send-mail@master
         with:
           server_address: smtp.126.com
           server_port: 465

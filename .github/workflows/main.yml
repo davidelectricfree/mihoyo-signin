@@ -3,7 +3,7 @@ name: "Mihoyo SignIn"
 on:
   workflow_dispatch:
   schedule:
-    - cron: "15 22 * * *"
+    - cron: "06 21 * * *"
 
 jobs:
   build:
